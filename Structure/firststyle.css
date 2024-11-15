@@ -1,0 +1,19 @@
+
+
+
+div{
+    height:50px;
+    background-color: rgb(42, 42, 94);
+    width:100%;
+    position: fixed;
+    top: 1px;
+     color:rgb(159, 227, 32);
+   font-weight: bolder;
+   font-size: larger;
+
+    
+}
+h1{
+    font-weight: lighter;
+text-align: center;
+}
