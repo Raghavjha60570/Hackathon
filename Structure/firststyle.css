@@ -13,6 +13,9 @@ div{
 
     
 }
+fieldset{
+    height: 60px;
+}
 h1{
     font-weight: lighter;
 text-align: center;
