@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-<link rel="Stylesheet" href="convertor.css">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="convertor.css">
 </head>
 <body>
     <div class="Container">
-        <h1>Currency Convertor</h1>
+        <h1>Currency Converter</h1>
+        <br>
+        <br>
         <div class="row">
             <div class="col">
-                <select class="Currency">
-              <option>Select</option>
+                <select id="fromCurrency" class="Currency">
+                    <option>Select</option>
                 </select>
-                <input type="text" id="input_currency" name="">
+                <input type="text" id="input_currency" placeholder="Enter amount">
             </div>
             <div class="col">
-                <select class="Currency">
-              <option>Select</option>
+                <select id="toCurrency" class="Currency">
+                    <option>Select</option>
                 </select>
-                <input type="text" id="output_currency" disabled name="">
+                <input type="text" id="output_currency" disabled placeholder="Converted amount">
             </div>
         </div>
-        <button href="https://www.google.com">Convertor</button>
+        <button id="convertButton" onClick="converter()">Convert</button>
     </div>
-    
+    <script type="text/javascript" src="js/script.js"></script>
+
+   
 </body>
+
 </html>

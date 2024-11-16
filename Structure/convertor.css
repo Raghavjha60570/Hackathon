@@ -35,7 +35,7 @@ select,input{
 }
 
 button{
-    width: 200px;
+    width: 150px;
     display: block;
     padding:10px;
     margin:0 auto;
@@ -44,4 +44,5 @@ button{
     color: #fff;
     border: 0;
     cursor: pointer;
+    font-size: 22px;
 }
