@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Currency Converter</title>
     <link rel="stylesheet" href="convertor.css">
-=======
-    
-    <title>Document</title>
-    
-<link rel="Stylesheet" href="convertor.css">
->>>>>>> 05625b7ec66e28702ad22d75ae5ca3da62bd7103
+   
 </head>
 <body>
-    <div class="Container">
+    <div class="container">
         <h1>Currency Converter</h1>
-        <br>
-        <br>
+        <p class="description">Convert currencies easily and accurately!</p>
         <div class="row">
+            <!-- From Currency Section -->
             <div class="col">
-                <select id="fromCurrency" class="Currency">
-                    <option>Select</option>
+                <label for="fromCurrency" class="label">From:</label>
+                <select id="fromCurrency" class="currency-select">
+                    <option value="">Select Currency</option>
                 </select>
-                <input type="text" id="input_currency" placeholder="Enter amount">
+                <input type="text" id="input_currency" class="input-box" placeholder="Enter amount">
             </div>
+            
+            <!-- To Currency Section -->
             <div class="col">
-                <select id="toCurrency" class="Currency">
-                    <option>Select</option>
+                <label for="toCurrency" class="label">To:</label>
+                <select id="toCurrency" class="currency-select">
+                    <option value="">Select Currency</option>
                 </select>
-                <input type="text" id="output_currency" disabled placeholder="Converted amount">
+                <input type="text" id="output_currency" class="input-box" disabled placeholder="Converted amount">
             </div>
         </div>
-        <button id="convertButton" onClick="converter()">Convert</button>
+        <!-- Convert Button -->
+        <button id="convertButton" class="convert-btn" onClick="converter()">Convert</button>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
-
-   
 </body>
-<<<<<<< HEAD
-
-=======
->>>>>>> 05625b7ec66e28702ad22d75ae5ca3da62bd7103
 </html>
